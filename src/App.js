@@ -40,6 +40,8 @@ class App extends Component {
         error: "Please Enter the values"
       });
     }
+    document.getElementById("create-weather-form").reset();
+
   }
   render() {
     return (
@@ -52,7 +54,7 @@ class App extends Component {
                 <Titles />
               </div>
               <div className="col-xs-7 form-container">
-                <Form getWeather={this.getWeather} />
+                <Form myFormRef={this.myFormRef} getWeather={this.getWeather} />
                 <Weather
                 temperature={this.state.temperature}
                 city={this.state.city}
