@@ -95,7 +95,10 @@ button {
 button:active {
   outline: none;
 }
-
+.btn{
+  margin-bottom: -754px !important;
+  vertical-align: middle !important;
+}
 .weather__info {
   width: 60%;
   font-size: 20px;

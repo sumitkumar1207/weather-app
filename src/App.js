@@ -45,7 +45,7 @@ class App extends Component {
   }
   render() {
     return (
-      // <div>
+      <div>
       <div className="wrapper">
         <div className="main">
           <div className="container">
@@ -67,7 +67,7 @@ class App extends Component {
           </div>
         </div>
       </div>
-      // </div>
+    </div>
     );
   }
 }
